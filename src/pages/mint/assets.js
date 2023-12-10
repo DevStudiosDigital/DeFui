@@ -2359,4 +2359,4 @@ export const abiErc20 = [
 		"stateMutability": "nonpayable",
 		"type": "function"
 	}
-];
+]; 
