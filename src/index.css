@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+@font-face {
+  font-family: "RacingSansOne";
+  src: url(./fonts/RacingSansOne-Regular.ttf);
+}
+
+@font-face {
+  font-family: "rakitekFont";
+  src: url(./fonts/RAKITEK.woff);
+}
+@font-face {
+  font-family: "racing";
+  src: url(./fonts/RacingSansOne-Regular.ttf);
+}
+
+a:hover {
+  opacity: 0.6;
+  transition: opacity 0.3s;
+}
+
+/* src/components/Ticker.css */
+
+/* Add this to your component's CSS file or Tailwind CSS classes */
+.ticker-container {
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  animation: ticker-scroll 30s linear infinite;
+}
+
+.ticker-text {
+  padding-right: 2rem; /* Adjust as needed for spacing between texts */
+  margin-left: 100%; /* Start text items off-screen to the right */
+  animation: ticker-scroll 30s linear infinite reverse; /* Reverse animation for alternate texts */
+}
+
+@keyframes ticker-scroll {
+  0% {
+    transform: translateX(100%); /* Start off-screen to the right */
+  }
+  100% {
+    transform: translateX(-100%); /* Move to off-screen to the left */
+  }
+}
+
+

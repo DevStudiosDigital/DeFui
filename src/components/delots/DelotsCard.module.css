@@ -1,0 +1,30 @@
+/* DelotsCard.module.css */
+
+.cardContainer {
+    width: 100%;
+    aspect-ratio: 4/1;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor: pointer;
+  }
+  
+  .cardContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 2px solid transparent; /* Start with a transparent border */
+    width: 0; /* Start with no border width */
+    transition: border-color 0.3s, width 0.3s; /* Add transitions for smooth changes */
+    z-index: -1; /* Place it behind the card content */
+    pointer-events: none; /* Make sure it doesn't interfere with clicks */
+  }
+  
+  .cardContainer:hover::before {
+    width: 100%; /* Complete the border width */
+    border-color: #dd028d; /* Change the border color to #dd028d when hovered */
+  }
+  

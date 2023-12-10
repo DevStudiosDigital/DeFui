@@ -1,0 +1,21 @@
+
+FEATURES:
+-Detect network on mint page and ask the user to change
+-Mention the supported networks for Randomness https://docs.chain.link/vrf/v2/subscription/supported-networks . We could for these other chains use pseudo randomness, create a random number by using the current time, a users address, the block difficulty and any other random info from the last transaction that fills the lottery, it would be practically impossible for somebody to calculate and predict all of this but it isn't 100% randomness.
+-Sizing and placement fixes on mobile version for mint page
+
+LAUNCH LIST:
+-Have a crossmint account created
+-Have a chainlink manager created
+-Test chainlink randomness
+-Deploy all smart contracts and connect them to the dashbboard
+-create all crossmint production collections, switch to production and switch the project ids and colleection ids
+-Add header links
+-Add favicon, description, title
+-Add the images & metadata to pinata
+
+NEW FEATURES TO RECOMMEND:
+-Have good looking error handling
+-Add video explainer section
+-Allow people to directly login with email and create a wallet for them from the beginning
+-Adding a page where users can see all of their purchases NFTs, and separate them by ongoing lotteries and those that are inactive
