@@ -27,9 +27,7 @@ export const Introducing = () => {
      <Fade bottom>
      <div style={{ zIndex: 1 }} className="py-10 px-5 sm:px-10 md:px-20 relative">
         <div className="font-medium text-center text-lg sm:text-xl md:px-20 xl:px-40 2xl:px-52">
-          The Decentralize the Future's flagship project is the Decentralized Lottery (DeLot) and
-          introducing NFTks. No more searching for the next 100x gem, or getting rekt with that NFT
-          project. NFTks gurantee the opportunity to hit it big with 1000x gems every draw!
+        Decentralize the Future's flagship project, DeLot, transforming the NFT experience. Instead of the uncertain chase for elusive high-value assets, DeFui's NFTks offer a refined way to find those hidden 100x gems. Win the raffle and embark on a journey to find these rare and valuable treasures, making every draw a potential 100x gem opportunity
         </div>
       </div>
      </Fade>
@@ -85,13 +83,9 @@ export const Introducing = () => {
                       text-white
                     `}
             img={nft_ticket_2}
-            title={"Delot"}
+            title={"DeLot"}
           >
-            The Decentralized Lottery. DeFui’s flagship offering. By decentralizing the future of
-            lotteries, we're not merely shifting the operational mechanics; we're revolutionizing
-            its ethos. Transparent, fair, and inclusive. Pure chance without undue influence. Making
-            every NFTk not just a hope for fortune, but a testament to a fairer, more transparent
-            future. Dive in and experience the future of decentralized gaming.
+            Transparent, fair, and inclusive. Available on multiple chains, every DeLot allows you to win and find your 100x gem! The DeLot is a testament to a fairer, more transparent future. Dive in and experience the future of decentralized gaming– where every draw is an opportunity for discovery.
           </Cardpan>
           </Fade>
           <Fade>

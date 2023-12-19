@@ -41,7 +41,7 @@ export const ScreenHomepage = () => {
           className="text-white select-none pointer-events-none text-lg sm:text-2xl max-w-4xl text-center p-5 mx-auto mt-auto h-fit "
         >
           Step into a realm where blockchain's promise becomes reality. With DeFui, we're not just
-          embracing the future – we're sculpting it. decentralize the Future with us.
+          embracing the future – we're sculpting it. Decentralize the Future with us.
         </div>
 
         {/* <Conveyor /> */}
