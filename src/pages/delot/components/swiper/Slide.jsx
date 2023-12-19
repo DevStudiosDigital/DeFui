@@ -16,7 +16,7 @@ export const Slide = ({ icon, locked, selected_icon, unselected_icon, lock_icon,
           />
         )}
         <div className="w-full h-full py-14 px-5">
-          <img className="w-full h-full object-fill" src={icon} alt="swiper image" />
+          <img className="w-full h-full object-contain" src={icon} alt="swiper image" />
         </div>
       </div>
     </div>
