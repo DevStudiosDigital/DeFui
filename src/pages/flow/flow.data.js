@@ -174,8 +174,8 @@ export const chains = [
     button_title: "Go to Polygon DeLot",
     video: video_02,
     providerUrl: 'https://polygon-mainnet.g.alchemy.com/v2/BbSU1mc2C5j_8I8TlMn-tPswr3yFuusJ',
-    contractAddress: '0x27e7bB7e1fb858f4f71e95B6Cdc9C0c5B887a594',
-    collectionId: '617b9d4d-3660-4334-ae57-0985cdd52e45',
+    contractAddress: '0x163696a198037efC000cccD5a901732f36328b73',
+    collectionId: '337eccd1-cbec-495b-a82e-5b2647f5ad55',
     projectId: 'f720443c-6d2c-4fa4-8424-24f3f2969d41',
   },
   {
