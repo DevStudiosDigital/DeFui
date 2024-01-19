@@ -7,7 +7,7 @@ import header__btn from "../../public/header__btn.png";
 import btn__mint from "../../public/btn__mint.png";
 import bg_min from "../../public/bg_min.png";
 import cronos from "../../public/cronos.png";
-import video from "../../public/video.mp4";
+import video from "../../public/mintVideos/Poly Mint Page.mp4";
 import { chains } from "../flow/flow.data";
 
 import { LinesBg } from "../../components/LinesBg";

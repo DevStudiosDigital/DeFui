@@ -63,24 +63,24 @@ export const Menu = () => {
           ))}
         </div>
 
-        <div className="flex-1 flex flex-col shrink-0 overflow-y-auto h-screen xl:h-full border-l border-white/40  ">
+        <div className="flex-1 flex flex-col shrink-0 overflow-y-auto h-screen xl:h-full border-l border-white/40  `">
           <div className="border-b shrink-0 border-white/40 w-full py-5 px-2">
             <img src={nav_title} alt="nav_title" />
           </div>
           <nav>
             <Accordion title={"Chains"}>
               {chains.map((link) => (
-                <Link key={link.title} icon={link.icon} title={link.contractAddress == '' ? link.title + ' DeLot' : link.title + ' DeLot'} link={link.contractAddress == '' ? null : '/mint/' + link.title}/>
+                <Link key={link.title} icon={link.icon} title={link.contractAddress == '' ? link.title + ' DeLot (SOON)' : link.title + ' DeLot'} link={link.contractAddress == '' ? null : '/mint/' + link.title}/>
               ))}
             </Accordion>
             <Accordion title={"Stables"}>
               {stables.map((link) => (
-                <Link key={link.title} icon={link.icon} title={link.contractAddress == '' ? link.title + ' DeLot' : link.title + ' DeLot'}  link={link.contractAddress == '' ? null : '/mint/' + link.title} />
+                <Link key={link.title} icon={link.icon} title={link.contractAddress == '' ? link.title + ' DeLot (SOON)' : link.title + ' DeLot'}  link={link.contractAddress == '' ? null : '/mint/' + link.title} />
               ))}
             </Accordion>
             <Accordion title={"Pools"}>
               {pools.map((link) => (
-                <Link key={link.title} icon={link.icon} title={link.title} link={null} />
+                <Link key={link.title} icon={link.icon} title={link.title + ' (SOON)'} link={null} />
               ))}
             </Accordion>
           </nav>

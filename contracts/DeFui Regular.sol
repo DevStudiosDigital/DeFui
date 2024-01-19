@@ -1835,13 +1835,6 @@ interface IERC20Metadata is IERC20 {
 contract DecentralizedFinanceInitiative is ERC721Enumerable, VRFConsumerBaseV2, Ownable, ReentrancyGuard {
     using Strings for uint256;
 
-    //HAVE THE ADMIN BE ABLE TO EDIT THE PRICE, AMOUNT OF NFTS, AND REWARD DISTRIBUTION (HEALTH CHECKS)
-    //RANDOM NUMBER WHEN LAST NFT IS MINTED AND THEN SELECT RANDOM NUMBERS
-    //SWITCH THE METADATA ONCE THE LOTTERY HAS BEEN EXECUTED 
-    //ALLOW CROSSMINT INTEGRATION
-    //REWARD DISTRIBUTION
-    //LOTTERY REWARD EVENT 
-
     struct Lottery {
         uint256 ended;
         uint256 tokensMinted;

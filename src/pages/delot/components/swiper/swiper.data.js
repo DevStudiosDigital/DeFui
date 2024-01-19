@@ -40,7 +40,7 @@ import unselected_icon from "../../../../public/swipper/non_selected_level.png";
 export const data = [
   {
     icon: card_03,
-    locked: true,
+    locked: false,
     selected_icon: unlocked_level,
     lock_icon: lock_icon,
     unselected_icon: unselected_icon,
@@ -80,7 +80,7 @@ export const data = [
   // },
   {
     icon: card_08,
-    locked: true,
+    locked: false,
     selected_icon: unlocked_level,
     lock_icon: lock_icon,
     unselected_icon: unselected_icon,
@@ -288,7 +288,7 @@ export const data = [
   // },
   {
     icon: card_34,
-    locked: true,
+    locked: false,
     selected_icon: unlocked_level,
     lock_icon: lock_icon,
     unselected_icon: unselected_icon,

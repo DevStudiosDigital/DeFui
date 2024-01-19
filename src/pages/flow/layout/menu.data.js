@@ -10,18 +10,18 @@ export const links = [
     active: true,
     only_mobile: false,
   },
-  {
-    link: "#",
-    img: icon,
-    active: false,
-    only_mobile: false,
-  },
-  {
-    link: "#",
-    img: icon_2,
-    active: false,
-    only_mobile: false,
-  },
+  // {
+  //   link: "#",
+  //   img: icon,
+  //   active: false,
+  //   only_mobile: false,
+  // },
+  // {
+  //   link: "#",
+  //   img: icon_2,
+  //   active: false,
+  //   only_mobile: false,
+  // },
   {
     link: "#",
     img: twitter,
