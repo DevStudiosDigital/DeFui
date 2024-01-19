@@ -7,7 +7,7 @@ import cn from "classnames";
 export const Menu = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="lg:absolute flex lg:top-20 lg:right-40 text-white  lg:w-fit w-full">
+    <div className="lg:absolute flex lg:top-20 lg:right-40 text-white  lg:w-fit w-full z-10">
       <div className="lg:hidden z-10 flex w-full justify-between border-b backdrop-blur-sm bg-black/50 border-white/40 px-5 py-3">
         <div className="">
           <img src={logo} alt="logo" />
@@ -17,18 +17,18 @@ export const Menu = () => {
         </button>
       </div>
       <div className="lg:flex gap-10 text-lg font-medium items-center  hidden">
-        <a className="hover:underline" href="#">
+        <a className="hover:underline" href="https://defui.gitbook.io/docs/introduction/about-defui" target="_blank" rel="noopener noreferrer">
           About
         </a>
-        <a className="hover:underline" href="#">
+        <a className="hover:underline" href="https://defui.gitbook.io/docs/" target="_blank" rel="noopener noreferrer">
           Docs
         </a>
-        <a className="hover:underline" href="#">
+        <a className="hover:underline" href="https://defui.gitbook.io/docs/defui-ecosystem/delot-dapp" target="_blank" rel="noopener noreferrer">
           Ecosystem
         </a>
-        <a className="hover:underline" href="#">
+        {/* <a className="hover:underline" href="#">
           Contact
-        </a>
+        </a> */}
       </div>
       <div
         className={cn("fixed inset-0 bg-black/90 transition-all flex flex-col p-5", {
@@ -37,18 +37,18 @@ export const Menu = () => {
         })}
       >
         <div className="pt-40 text-white flex flex-col font-medium text-5xl gap-5">
-          <a className="hover:underline" href="#">
-            About
-          </a>
-          <a className="hover:underline" href="#">
-            Docs
-          </a>
-          <a className="hover:underline" href="#">
-            Ecosystem
-          </a>
-          <a className="hover:underline" href="#">
+        <a className="hover:underline" href="https://defui.gitbook.io/docs/introduction/about-defui" target="_blank" rel="noopener noreferrer">
+          About
+        </a>
+        <a className="hover:underline" href="https://defui.gitbook.io/docs/" target="_blank" rel="noopener noreferrer">
+          Docs
+        </a>
+        <a className="hover:underline" href="https://defui.gitbook.io/docs/defui-ecosystem/delot-dapp" target="_blank" rel="noopener noreferrer">
+          Ecosystem
+        </a>
+          {/* <a className="hover:underline" href="#">
             Contact
-          </a>
+          </a> */}
         </div>
       </div>
     </div>

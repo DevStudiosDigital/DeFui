@@ -9,24 +9,24 @@ export const Footer = () => {
         </div>
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="flex flex-col gap-4">
-            <a className="hover:underline" href="https://defui.gitbook.io/defui-whitepaper/">
+            <a className="hover:underline" href="https://defui.gitbook.io/docs/introduction/about-defui" target="_blank" rel="noopener noreferrer">
               About Defu
             </a>
-            <a className="hover:underline" href="https://defui.gitbook.io/defui-whitepaper/">
+            <a className="hover:underline" href="https://defui.gitbook.io/defui-whitepaper/" target="_blank" rel="noopener noreferrer">
               Whitepaper
             </a>
-            <a className="hover:underline" href="https://defui.gitbook.io/defui-whitepaper/">
+            <a className="hover:underline" href="https://defui.gitbook.io/docs/" target="_blank" rel="noopener noreferrer">
               Documentation
             </a>
           </div>
           <div className="flex flex-col gap-4">
-            <a className="hover:underline" href="https://defui.gitbook.io/defui-whitepaper/">
+            <a className="hover:underline" href="https://defui.gitbook.io/docs/miscellaneous/terms-of-service" target="_blank" rel="noopener noreferrer">
               Terms and conditions
             </a>
-            <a className="hover:underline" href="https://defui.gitbook.io/defui-whitepaper/">
+            <a className="hover:underline" href="https://defui.gitbook.io/docs/miscellaneous/privacy-policy" target="_blank" rel="noopener noreferrer">
               Privacy Policy
             </a>
-            <a className="hover:underline" href="https://defui.gitbook.io/defui-whitepaper/">
+            <a className="hover:underline" href="https://defui.gitbook.io/docs/" target="_blank" rel="noopener noreferrer">
               Audits
             </a>
           </div>
