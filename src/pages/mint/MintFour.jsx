@@ -186,7 +186,7 @@ export const Mint = () => {
         <MintBg >
         {chainData ? (
             <video className="object-cover object-left h-full" autoPlay muted loop>
-              <source type="video/mp4" src={chainData.video} />
+              <source type="video/mp4" src="https://res.cloudinary.com/defui-delots/video/upload/v1709400824/mintVideos/live/r2hdr2i3e38dgyr80naj.mp4" />
             </video>
           ) : (
             <video className="object-cover object-left h-full" autoPlay muted loop>

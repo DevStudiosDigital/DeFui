@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cloudinary/react": "^1.13.0",
+    "@cloudinary/url-gen": "^1.18.0",
     "@crossmint/client-sdk-react-ui": "^1.1.2-alpha.0",
     "@rainbow-me/rainbowkit": "^1.1.0",
     "@testing-library/jest-dom": "^5.14.1",

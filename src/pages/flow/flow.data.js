@@ -227,7 +227,7 @@ export const chains = [
   {
     title: "FTM",
     symbol: 'FTM',
-    icon: image_11,
+    icon: image_12,
     amount_title: "Jackpot amount (FTM)",
     amount: "12000",
     tickets_title: "Tickets Available",

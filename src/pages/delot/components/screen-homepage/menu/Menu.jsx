@@ -23,7 +23,7 @@ export const Menu = () => {
         <a className="hover:underline" href="https://defui.gitbook.io/docs/" target="_blank" rel="noopener noreferrer">
           Docs
         </a>
-        <a className="hover:underline" href="https://defui.gitbook.io/docs/defui-ecosystem/delot-dapp" target="_blank" rel="noopener noreferrer">
+        <a className="hover:underline" href="/chains">
           Ecosystem
         </a>
         {/* <a className="hover:underline" href="#">

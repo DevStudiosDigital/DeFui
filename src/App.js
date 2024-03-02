@@ -9,6 +9,8 @@ import { MintStable } from "./pages/mint/MintStable";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Partner } from "./pages/partner/Partner";
 
+import {Cloudinary} from "@cloudinary/url-gen";
+
 import '@rainbow-me/rainbowkit/styles.css';
 import {
   getDefaultWallets,
@@ -50,6 +52,8 @@ const wagmiConfig = createConfig({
 })
 
 function App() {
+  const cld = new Cloudinary({cloud: {cloudName: 'defui-delots'}});
+  
    return (
     <>
     <WagmiConfig config={wagmiConfig}>
